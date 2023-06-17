@@ -11,7 +11,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { NavLink, Outlet, Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../images/logo.png";
 
 const pages = [
   { name: "Front-Facace", address: "/front-facade" },

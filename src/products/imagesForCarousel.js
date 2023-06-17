@@ -1,5 +1,5 @@
 export const homePageImages = [
-  "src/assets/main2.png",
-  "src/assets/main3.png",
-  "src/assets/main1.png",
+  "src/images/main2.png",
+  "src/images/main3.png",
+  "src/images/main1.png",
 ]

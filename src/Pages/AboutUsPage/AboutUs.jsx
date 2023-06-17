@@ -1,5 +1,5 @@
 /* eslint-disable no-irregular-whitespace */
-import house from "../../assets/house1.png";
+import house from "../../images/house1.png";
 import "./AboutUs.css";
 
 export const AboutUs = () => {

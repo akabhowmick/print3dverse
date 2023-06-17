@@ -57,7 +57,7 @@ export const Cart = () => {
                     <li className="nav-link d-flex flex-wrap flex-row">
                       <div className="col-12 text-black h5 text-center p-0"></div>
                       <div className="col-4 p-0">
-                        <img className="cart-img" src={images[0]} alt="" />
+                        <img className="cart-img" src={images[0]} alt="cart-image" />
                         <div className="text-right text-dark d-flex flex-row justify-content-end align-items-center h6 m-0 p-0">
                           <button onClick={() => removeFromCart(id)}>
                             Remove

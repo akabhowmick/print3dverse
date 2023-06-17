@@ -33,7 +33,7 @@
 
 #navbar-logo-small-screen:hover {
   padding: 0;
-  color: white;
+  color: var(--blue-background);
   border-radius: 0;
 }
 

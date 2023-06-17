@@ -78,9 +78,12 @@ export const ImageUploader = () => {
     if (file) {
       const imageRef = ref(
         storage,
-        `images/${"Client Name: " + formValues.name.data + "; Client Message: " + formValues.message.data}/${
-          file.name + v4()
-        }`
+        `images/${
+          "Client Name: " +
+          formValues.name.data +
+          "; Client Message: " +
+          formValues.message.data
+        }/${file.name + v4()}`
       );
       uploadBytes(imageRef, file);
     }
@@ -120,7 +123,10 @@ export const ImageUploader = () => {
   };
 
   return (
-    <div className="container upload-image-container top-space">
+    <div
+      className="container upload-image-container top-space"
+      style={{ minHeight: "66vh" }}
+    >
       <Box component="form" noValidate onSubmit={handleSubmit}>
         <Typography
           id="modal-modal-title"
