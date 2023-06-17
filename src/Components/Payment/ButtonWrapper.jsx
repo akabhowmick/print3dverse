@@ -50,7 +50,6 @@ const ButtonWrapper = ({
         }}
         onApprove={async function (data, actions) {
           await actions.order.capture();
-          console.log("made the payment");
           setPaymentSuccess(true);
         }}
       />

@@ -30,7 +30,6 @@ export const Navbar = () => {
     } else {
       setColor("transparent");
     }
-    console.log(window.scrollY, color);
   };
 
   const handleOpenNavMenu = (event) => {
