@@ -1,0 +1,109 @@
+.sidecart {
+  width: 340px;
+  min-width: 340px;
+  height: 100vh;
+  position: fixed;
+  overflow: auto !important;
+  right: -340px;
+  z-index: 9000;
+  transition: 0.2s ease;
+}
+
+.nav-link {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.text-black {
+  color: black;
+}
+
+.open-cart {
+  right: 0px !important;
+  top: 55px;
+}
+
+.open-cart:before{
+  content: "";
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.product-quantity {
+  position: relative;
+}
+
+.product-quantity:after {
+  white-space: nowrap;
+  position: absolute;
+  z-index: 10;
+  margin-left: 2px;
+}
+
+.sidecart-price > div {
+  margin: auto;
+  width: 100%;
+}
+
+.product-name {
+  text-decoration: underline;
+}
+
+.sidecart-item button {
+  background-color: var(--blue-background);
+  margin: 0.25rem 0;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.6rem 1.2rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.sidecart-item button.quantity-change {
+  padding: 5px 10px;
+}
+
+.cart-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding-right: 7px;
+}
+
+.d-flex {
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* @media screen and (max-width: 600px){
+  .open-cart{
+    top: 55px
+  }
+} */

@@ -1,0 +1,11 @@
+For the launch:
+  Upload to github
+  Purchase domain
+  Launch
+
+After:
+  Change the contact email section 
+
+Future Updates:
+  user and login
+  button in hero section

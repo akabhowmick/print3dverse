@@ -1,0 +1,27 @@
+@media screen and (max-width: 425px) {
+  .css-64ubn6-MuiStepper-root {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .css-j5w0w9-MuiStepConnector-root {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .css-126nd9x-MuiPaper-root {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding: 12px;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .css-126nd9x-MuiPaper-root {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    padding: 24px;
+  }
+}

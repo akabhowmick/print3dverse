@@ -1,0 +1,64 @@
+/* Hero Header */
+.hero {
+  margin: 0 0 4rem 0;
+  position: relative;
+}
+
+.hero .hero-learn {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+  background-color: var(--blue-background);
+  border: none;
+  border-radius: 10px;
+}
+
+/* PRODUCT BANNERS */
+.products-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 2rem auto 0;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.products-display-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-header {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.below-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-below {
+  width: 50%;
+  border-top: 10px solid var(--blue-background);
+  opacity: 1;
+}
+
+.line-below-products {
+  width: 25%;
+  border-top: 10px solid var(--red-background);
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .section-header {
+    font-size: 2.15rem;
+  }
+}

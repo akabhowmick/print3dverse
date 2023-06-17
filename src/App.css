@@ -1,0 +1,97 @@
+:root {
+  --bg: #000;
+  --bg-panel: #000;
+  --color-headings: #000;
+  --color-text-opacity: rgba(22, 28, 45, 0.7);
+  --color-text: black;
+  --border: #383f53;
+  --background: #dcdcdc;
+  --white: #fff;
+  --black: #000;
+  --font-color-base: #ededed;
+  --font-color-dark: #212529;
+  --font-color-light: #b0aebe;
+  --font-color-link: #004aad;
+  --footer: #31344b;
+  --footer-base: #2e2b45;
+  --contrast: rgba(246, 248, 249, 0.8);
+  --success: #64ecf5;
+  --danger: #ff888d;
+  --grad-1: #a1ecff;
+  --grad-2: #7dcbff;
+  --blue-background: #0b3b9c;
+  --red-background: #AB0000;
+  --logo-blue: #0b3b9c;
+  --logo-red: #f5791d;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0px;
+  display: block;
+}
+
+.top-space{
+  padding-top: 4rem;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* Buttons */
+.btn-blue {
+  box-shadow: rgba(161, 236, 255, 0.5) 0px 10px 20px;
+  color: var(--white);
+  border: 1px solid var(--grad-1);
+  transition: all 0.3s ease-in-out 0s;
+  background: var(--blue-background);
+}
+
+/* Payment */
+.payment-form{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+.payment-div{
+  flex: 1;
+  text-align: left;
+  min-width: 350px;
+}
+
+.payment-div select{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 0.5rem 0;
+  box-sizing: border-box;
+}
+
+.btn-row{
+  margin: 0 auto;
+}
+
+.paypal-buttons {
+  max-width: 750px; 
+  min-height: 200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 400px){
+  .paypal-buttons{
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .row .col-md-6{
+    width: 100%;
+  }
+}

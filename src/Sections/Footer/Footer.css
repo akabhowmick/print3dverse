@@ -1,0 +1,26 @@
+.footer-main {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow-us {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#social-links a {
+  border-radius: 50%;
+  padding: 9px 15px;
+  margin-left: 5px;
+  color: white;
+}

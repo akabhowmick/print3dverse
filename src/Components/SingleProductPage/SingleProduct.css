@@ -1,0 +1,58 @@
+.card {
+  border: none;
+}
+
+.brand {
+  font-size: 13px;
+}
+.act-price {
+  color: red;
+  font-weight: 700;
+}
+.dis-price {
+  text-decoration: line-through;
+}
+.about {
+  font-size: 14px;
+}
+.color {
+  margin-bottom: 10px;
+}
+
+.btn-danger {
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important;
+}
+.btn-danger:hover {
+  background-color: #da0606 !important;
+  border-color: #da0606 !important;
+}
+.btn-danger:focus {
+  box-shadow: none;
+}
+.cart i {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #product-row > * {
+    max-width: 100vw;
+  }
+}
+
+.product-buttons button.btn,
+.product-buttons .learn-more-btn {
+  transition: all 0.5s ease;
+  background-color: var(--red-background);
+  color: white;
+}
+
+.product-buttons button:hover,
+.product-buttons .learn-more-btn:hover {
+  background-color: white;
+  color: var(--red-background);
+}
+
+.learn-more-btn{
+  cursor: pointer;
+}
