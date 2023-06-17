@@ -120,7 +120,7 @@ export const ImageUploader = () => {
   };
 
   return (
-    <div className="container upload-image-container">
+    <div className="container upload-image-container top-space">
       <Box component="form" noValidate onSubmit={handleSubmit}>
         <Typography
           id="modal-modal-title"
